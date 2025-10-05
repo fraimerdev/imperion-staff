@@ -1,0 +1,30 @@
+{
+  "name": "base-bot-handler",
+  "version": "1.0.0",
+  "description": "A reusable Discord bot handler with slash commands, message commands, component handlers, and MongoDB integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "bot-handler",
+    "slash-commands",
+    "message-commands",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.3",
+    "mongoose": "^8.19.0"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
